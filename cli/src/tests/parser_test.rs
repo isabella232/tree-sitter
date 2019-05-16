@@ -203,7 +203,7 @@ fn test_parsing_after_editing_beginning_of_code() {
         )
     );
 
-    assert_eq!(recorder.strings_read(), vec!["123 || 5 "]);
+    assert_eq!(recorder.strings_read(), vec!["123 || 5 + "]);
 }
 
 #[test]
